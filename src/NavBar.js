@@ -10,7 +10,8 @@ function getWindowDimensions() {
 
 const NavBar = () => {
 
-    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions())
+    const [find, setFind] = useState(false)
 
     useEffect(() => {
         function handleResize() {
@@ -20,17 +21,15 @@ const NavBar = () => {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
-    console.log(windowDimensions)
     
     return (
         <nav>
             <div className="nav-center">
                 <div className="nav-header">
-                    <a href="#">{windowDimensions.width>700 ? "kartik.budania": "k.b"}</a>
-                    <button className="nav-toggle">.find()</button>
+                    <a href="#">{windowDimensions.width>650 ? "kartik.budania": "k.b"}</a>
+                    <button className="nav-toggle" onClick={()=>setFind(!find)}>{find? ".close()": ".find()"}</button>
                 </div>
-                <div className="link-container">
+                <div className={find ? "show-link-container": "link-container"}>
                     <ul>
                         <li><a>.projects()</a></li>
                         <li><a>.about()</a></li>
