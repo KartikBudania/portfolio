@@ -1,12 +1,33 @@
 import React, { useState, useEffect } from "react";
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+}
+
 const NavBar = () => {
+
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowDimensions(getWindowDimensions());
+        }
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    console.log(windowDimensions)
     
     return (
         <nav>
             <div className="nav-center">
                 <div className="nav-header">
-                    <a href="#">kartik.budania</a>
+                    <a href="#">{windowDimensions.width>800 ? "kartik.budania": "k.b"}</a>
                 </div>
                 <div className="link-container">
                     <ul>

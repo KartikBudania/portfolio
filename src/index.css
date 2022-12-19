@@ -4,7 +4,7 @@
 }
 body {
   margin: 0px auto;
-  max-width: 1260px;
+  max-width: 1300px;
   font-family: var(--main-font-family);
 }
 .nav-center{
@@ -63,4 +63,8 @@ li{
   margin-left: 25px;
   height: auto;
   width: auto;
+}
+
+@media screen and (min-width: 1000px) {
+  
 }
