@@ -27,7 +27,8 @@ const NavBar = () => {
         <nav>
             <div className="nav-center">
                 <div className="nav-header">
-                    <a href="#">{windowDimensions.width>800 ? "kartik.budania": "k.b"}</a>
+                    <a href="#">{windowDimensions.width>700 ? "kartik.budania": "k.b"}</a>
+                    <button className="nav-toggle">.find()</button>
                 </div>
                 <div className="link-container">
                     <ul>
