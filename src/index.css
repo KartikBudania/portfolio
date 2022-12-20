@@ -7,9 +7,12 @@ body {
   max-width: 1300px;
   font-family: var(--main-font-family);
 }
-
-.nav-center{
+/* .hero{
   padding: 10px 18px;
+  color: black;
+} */
+.nav-center{
+  padding: 20px 18px;
   height: 90px;
   background-color: white;
   z-index: 10;
@@ -24,13 +27,16 @@ body {
   font-weight: 700;
 }
 .nav-toggle {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.1rem;
   color: rgb(13, 15, 17);
   background-color: white;
   cursor: pointer;
   border: none;
+  padding-right: 0px;
+  /* text-align: right; */
+  /* margin-right: 0px; */
 }
 .nav-toggle:hover {
   color: rgb(49, 130, 206);
@@ -39,8 +45,9 @@ body {
   display: block;
   justify-items: center;
   text-align: right;
-  margin-top: 50px;
-  /* background-color: grey; */
+  z-index: 10;
+  background-color: white;
+
 }
 .link-container{
   display: none;
@@ -65,7 +72,6 @@ button {
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 0.2em;
-  /* margin-left: 25px; */
 }
 button:hover{
   color: rgb(13, 15, 17);
@@ -75,8 +81,9 @@ ul{
   list-style-type: none;
   display: block;
   align-items: center;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 700;
+  margin-right: 3px;
 }
 li{
   margin-top: 15px;
@@ -110,7 +117,6 @@ li{
     color: rgb(49, 130, 206);
   }
   .link-container{
-    /* margin-top: 0px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,7 +151,7 @@ li{
     list-style-type: none;
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
   }
   li{
