@@ -30,13 +30,13 @@ const NavBar = () => {
                     <button className="nav-toggle" onClick={()=>setFind(!find)}>{find? ".close()": ".find()"}</button>
                 </div>
                 <div className={find ? "show-link-container": "link-container"}>
-                    <ul>
+                    <ul className="links">
                         <li><a>.projects()</a></li>
                         <li><a>.about()</a></li>
                         <li><a>.tools()</a></li>
                         <li><a>.contact()</a></li>
+                        <li><button className="toggle-theme">DARK THEME</button></li>
                     </ul>
-                    <button className="toggle-theme">DARK THEME</button>
                 </div>
             </div>
         </nav>

@@ -37,7 +37,10 @@ body {
 }
 .show-link-container{
   display: block;
+  justify-items: center;
   text-align: right;
+  margin-top: 50px;
+  /* background-color: grey; */
 }
 .link-container{
   display: none;
@@ -55,7 +58,7 @@ button {
   font-family: var(--main-font-family);
   color: white;
   background-color: rgb(13, 15, 17);
-  /* padding: 10px 15px; */
+  padding: 5px 10px;
   font-weight: 500;
   border-radius: 2px;
   border: 1px solid;
@@ -71,11 +74,12 @@ button:hover{
 ul{
   list-style-type: none;
   display: block;
+  align-items: center;
   font-size: 16px;
   font-weight: 700;
 }
 li{
-  margin-top: 25px;
+  margin-top: 15px;
   height: auto;
   width: auto;
 }
@@ -101,17 +105,12 @@ li{
   }
   .nav-toggle {
     display: none;
-    font-size: 25px;
-    font-weight: 700;
-    color: rgb(13, 15, 17);
-    background-color: white;
-    cursor: pointer;
-    border: none;
   }
   .nav-toggle:hover {
     color: rgb(49, 130, 206);
   }
   .link-container{
+    /* margin-top: 0px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,10 +144,12 @@ li{
   ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 700;
   }
   li{
+    margin-top: 0px;
     margin-left: 25px;
     height: auto;
     width: auto;
