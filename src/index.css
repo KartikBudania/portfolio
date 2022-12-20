@@ -7,10 +7,6 @@ body {
   max-width: 1300px;
   font-family: var(--main-font-family);
 }
-/* .hero{
-  padding: 10px 18px;
-  color: black;
-} */
 .nav-center{
   padding: 20px 18px;
   height: 90px;
@@ -35,8 +31,6 @@ body {
   cursor: pointer;
   border: none;
   padding-right: 0px;
-  /* text-align: right; */
-  /* margin-right: 0px; */
 }
 .nav-toggle:hover {
   color: rgb(49, 130, 206);
