@@ -31,7 +31,7 @@ const NavBar = () => {
                 </div>
                 <div className={find ? "show-link-container": "link-container"}>
                     <ul className="links">
-                        <li><a>.work()</a></li>
+                        <li><a>.projects()</a></li>
                         <li><a>.about()</a></li>
                         <li><a>.tools()</a></li>
                         <li><a>.contact()</a></li>
