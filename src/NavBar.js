@@ -35,7 +35,7 @@ const NavBar = () => {
                         <li><a>.about()</a></li>
                         <li><a>.tools()</a></li>
                         <li><a>.contact()</a></li>
-                        <li><button className="toggle-theme">DARK THEME</button></li>
+                        <li><button className="toggle-theme">DOWNLOAD RESUME</button></li>
                     </ul>
                 </div>
             </div>
