@@ -9,7 +9,7 @@ const Hero= ()=>{
                 die hard DragonBall Z fan, &<br></br>
                 a Basketball player 🏀.
             </div>
-            <div class="scroll-down"></div>
+            <div className="scroll-down"></div>
         </section>
     )
 }
