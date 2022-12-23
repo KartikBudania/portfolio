@@ -7,6 +7,7 @@ body {
   max-width: 1300px;
   font-family: var(--main-font-family);
   background-color: rgb(13, 15, 17);
+  overflow: hidden;
 }
 .nav-center{
   padding: 20px 18px;
@@ -85,16 +86,34 @@ li{
   height: auto;
   width: auto;
 }
+.hero{
+  padding: 90px 18px;
+  height: auto;
+  max-width: 1100px;
+  display: block;
+}
+.hero-heading{
+  margin: 0.67em 0px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-banner{
+  margin: 0.67em 0px;
+  color: rgb(49, 130, 206);
+  font-size: 50px;
+  font-weight: 700;
+}
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1100px) {
   .nav-center{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 18px;
     height: 90px;
-    /* background-color: white; */
     z-index: 10;
+    /* position: fixed; */
     top: 0;
     left: 0;
   }
@@ -153,5 +172,64 @@ li{
     margin-left: 25px;
     height: auto;
     width: auto;
+  }
+  .hero{
+    padding: 90px 18px;
+    height: auto;
+    max-width: 1100px;
+    display: block;
+  }
+  .hero-heading{
+    margin: 0.67em 0px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .hero-banner{
+    margin: 0.67em 0px;
+    color: rgb(49, 130, 206);
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    z-index: 100;
+    text-decoration: none;
+    text-shadow: 0;
+    width: 33px;
+    height: 33px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    z-index: 9;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%) rotate(45deg);
+    -moz-transform: translate(-50%, 0%) rotate(45deg);
+    transform: translate(-50%, 0%) rotate(45deg);
+    -webkit-animation: fade_move_down 0.8s ease-in-out infinite;
+    -moz-animation:    fade_move_down 0.8s ease-in-out infinite;
+    animation:         fade_move_down 0.8s ease-in-out infinite;
+  }
+  
+  
+  /*animated scroll arrow animation*/
+  @-webkit-keyframes fade_move_down {
+    0%   { -webkit-transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+  @-moz-keyframes fade_move_down {
+    0%   { -moz-transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
+  @keyframes fade_move_down {
+    0%   { transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
   }
 }

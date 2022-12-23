@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      {/* <Hero/> */}
+      <Hero/>
       {/* <Projects/>
       <About/>
       <Tools/>
