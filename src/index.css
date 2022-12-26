@@ -188,6 +188,12 @@ h6{
   font-size: 50px;
   margin: 0.67em 0px;
 }
+.socials{
+  font-size: 35px;
+}
+img{
+  margin-top: 3rem;
+}
 .stacks{
   display: flex;
   padding: 0px;
