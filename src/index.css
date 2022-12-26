@@ -34,6 +34,7 @@ body {
 }
 .nav-toggle:hover {
   color: rgb(49, 130, 206);
+  background-color: rgb(13, 15, 17);
 }
 .show-link-container{
   display: block;
@@ -282,15 +283,19 @@ h1{
     100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
   }
   #work{
-    margin: 10rem 0px;
-    padding: 90px 18px;
-    height: auto;
-    max-width: 1100px;
+    max-width: 1260px;
   }
   h1{
     color: rgb(49, 130, 206);
     font-weight: 700;
     font-size: 50px;
     margin: 0.67em 0px;
+  }
+  .projects{
+    padding: 50px 0px 50px 50px;
+    display: block;
+  }
+  .project{
+    max-width: 1210px;
   }
 }
