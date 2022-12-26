@@ -7,19 +7,21 @@ const Tools = () =>{
         <div className="tools">
             <h2>// I like to think I'm language agnostic, but here are some of my favorite tools right now</h2>
             <div className="tool">
-                <h5>Front-End Technology</h5>
-                <h3>ReactJS</h3>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>Styled Components</h3>
-                <h3>React Testing Library</h3>
-            </div>
-            <div className="tool">
-                <h5>Other</h5>
-                <h3>Javascript</h3>
-                <h3>Linux/Unix</h3>
-                <h3>Best Practices & 
-                    Design Principles Nerd</h3>
+                <div>
+                    <h5>Front-End Technology</h5>
+                    <h3>ReactJS</h3>
+                    <h3>HTML</h3>
+                    <h3>CSS</h3>
+                    <h3>Styled Components</h3>
+                    <h3>React Testing Library</h3>
+                </div>
+                <div>
+                    <h5>Other</h5>
+                    <h3>Javascript</h3>
+                    <h3>Linux/Unix</h3>
+                    <h3>Best Practices & 
+                        Design Principles Nerd</h3>
+                </div>
             </div>
         </div>
         <h1>{'</wrapper>'}</h1>
