@@ -203,9 +203,6 @@ h6{
 .tools, .about, .projects, .details{
   padding: 50px 0px 50px 50px;
 }
-/* .project{
-  margin-bottom: 75px;
-} */
 .tool{
   display: flex;
   justify-content: space-between;
