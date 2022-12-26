@@ -14,8 +14,8 @@ function App() {
       <NavBar/>
       <Hero/>
       <Projects/>
-      {/* <About/>
-      <Tools/>
+      <About/>
+      {/* <Tools/>
       <ContactMe/>
       <Footer/> */}
     </>
