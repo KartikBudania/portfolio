@@ -32,9 +32,9 @@ const NavBar = () => {
                 <div className={find ? "show-link-container": "link-container"}>
                     <ul className="links">
                         <li><a href="#work">.projects()</a></li>
-                        <li><a>.about()</a></li>
-                        <li><a>.tools()</a></li>
-                        <li><a>.contact()</a></li>
+                        <li><a href="#about">.about()</a></li>
+                        <li><a href="#tools">.tools()</a></li>
+                        <li><a href="#">.contact()</a></li>
                         <li><a href="KartikBudania.pdf" download><button className="toggle-theme">DOWNLOAD RESUME</button></a></li>
                     </ul>
                 </div>
