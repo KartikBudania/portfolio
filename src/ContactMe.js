@@ -12,7 +12,14 @@ const ContactMe = () =>{
                 <h2>// Some socials</h2>
                 <p className="socials"><a href="https://twitter.com/kartik_budania"><i className="fa-brands fa-twitter"></i></a>          <a href="https://github.com/KartikBudania"><i className="fa-brands fa-github"></i></a></p>
             </div>
-            <div className="detail"></div>
+            <div className="detail">
+                <form>
+                    <input type="text" id="name" placeholder="Name" required></input>
+                    <input type="email" id="email" placeholder="Email" required></input>
+                    <textarea id="message" rows="4" placeholder="Message"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
         </div>
         <h1>{'</wrapper>'}</h1>
         </section>
