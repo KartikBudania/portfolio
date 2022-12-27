@@ -39,7 +39,7 @@ const ContactMe = () =>{
                 <form onSubmit={handleSubmit}>
                     <input type="text" name="name" id="name" placeholder="Name" onChange={event => setName(event.target.value)} value={name} required />
                     <input type="email" name="user_email" id="email" placeholder="Email" onChange={event => setEmail(event.target.value)} value={email} required />
-                    <textarea name="message" id="message" cols="50" rows="4" placeholder="Message" onChange={event => setMessage(event.target.value)} value={message} required/>
+                    <textarea name="message" id="message" cols="45" rows="4" placeholder="Message" onChange={event => setMessage(event.target.value)} value={message} required/>
                     <button type="submit">SEND</button>
                 </form>
             </div>
