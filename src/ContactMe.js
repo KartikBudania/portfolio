@@ -33,7 +33,7 @@ const ContactMe = () =>{
                 <h3>Have any questions?</h3>
                 <h3>Shoot me an email or find me around the web.</h3>
                 <h2>// Some socials</h2>
-                <p className="socials"><a href="https://twitter.com/kartik_budania"><i className="fa-brands fa-twitter"></i></a>          <a href="https://github.com/KartikBudania"><i className="fa-brands fa-github"></i></a></p>
+                <p className="socials"><a href="https://twitter.com/kartik_budania" target="_blank"><i className="fa-brands fa-twitter"></i></a>          <a href="https://github.com/KartikBudania" target="_blank"><i className="fa-brands fa-github" ></i></a></p>
             </div>
             <div className="detail">
                 <form onSubmit={handleSubmit}>
