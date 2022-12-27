@@ -4,7 +4,7 @@ const Projects= ()=>{
     return(
         <section id="work">
             <h1>{'<wrapper id= "work">'}</h1>
-            <section className="projects">
+            <div className="projects">
                 <div className="project">
                     <img src="./leadsTracker.png"></img>
                     <h2>// Tech Stack</h2>
@@ -57,7 +57,7 @@ const Projects= ()=>{
                     <h3>Not much to say here! This one just gave me a good excuse to spend a weekend practicing with React and CSS</h3>
                     <h3><a>See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
-            </section>
+            </div>
             <h1>{'</wrapper>'}</h1>
         </section>
     )

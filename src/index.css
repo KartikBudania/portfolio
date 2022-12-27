@@ -7,6 +7,7 @@ body {
   max-width: 1300px;
   font-family: var(--main-font-family);
   background-color: rgb(13, 15, 17);
+  /* padding: 0px 18px; */
 }
 .nav-center{
   padding: 20px 18px;
@@ -147,9 +148,6 @@ li{
 section{
   margin: 10rem 0px;
 }
-.projects{
-  margin: 0px;
-}
 h1{
   color: rgb(49, 130, 206);
   font-weight: 700;
@@ -212,7 +210,7 @@ img{
   text-align: center;
 }
 .tools, .about, .projects, .details{
-  padding: 50px 0px 50px 50px;
+  padding: 50px 50px 50px 50px;
 }
 .tool{
   display: flex;
@@ -227,7 +225,7 @@ form{
   display: flex;
   flex-direction: column;
   padding: 40px 50px;
-  width: 65%;
+  width: 70%;
   max-width: 600px;
   border: white 2px solid;
   border-radius: 2px;
