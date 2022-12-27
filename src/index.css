@@ -192,10 +192,13 @@ h6{
   font-size: 35px;
 }
 img{
+  width: 100%;
+  height: auto;
+  max-width: 1250px;
   margin-top: 3rem;
 }
 .stacks{
-  display: flex;
+  display: block;
   padding: 0px;
 }
 .techstack{
@@ -204,7 +207,9 @@ img{
   padding: 5px 10px;
   letter-spacing: 0.2em;
   margin-bottom: 15px;
-  margin-right: 5px;
+  width: 20%;
+  min-width: 195px;
+  text-align: center;
 }
 .tools, .about, .projects, .details{
   padding: 50px 0px 50px 50px;
@@ -222,7 +227,7 @@ form{
   display: flex;
   flex-direction: column;
   padding: 40px 50px;
-  width: 80%;
+  width: 65%;
   max-width: 600px;
   border: white 2px solid;
   border-radius: 2px;
@@ -354,7 +359,6 @@ form input, form textarea{
   }
   
   
-  /*animated scroll arrow animation*/
   @-webkit-keyframes fade_move_down {
     0%   { -webkit-transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
     50%  { opacity: 1;  }
@@ -373,5 +377,20 @@ form input, form textarea{
   .details{
     display: flex;
     justify-content: space-between;
+  }
+  .stacks{
+    display: flex;
+    padding: 0px;
+  }
+  .techstack{
+    background-color: white;
+    color: rgb(13, 15, 17);
+    padding: 5px 10px;
+    letter-spacing: 0.2em;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 195px;
+    text-align: center;
   }
 }
