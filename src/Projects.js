@@ -6,7 +6,7 @@ const Projects= ()=>{
             <h1>{'<wrapper id= "work">'}</h1>
             <div className="projects">
                 <div className="project">
-                    <img src="./leads.png"></img>
+                    <img src="./leads.png" id="firstimg"></img>
                     <h2>// Leads Tracker Chrome Extension</h2>
                     <h3>This chrome extension using which we cansave important tabs/URLs and can open them whenever needed. Its similar to the bookmark feature in chrome.</h3>
                     <h2>// Tech Stack</h2>
@@ -28,6 +28,7 @@ const Projects= ()=>{
                         <li className="techstack">HTML</li>
                         <li className="techstack">CSS</li>
                     </ul>
+                    <h3><a href="https://kartikbudania.github.io/Blackjack-Game/" target="_blank">Visit the site <i className="fa-solid fa-link"></i></a></h3>
                     <h3><a href="https://github.com/KartikBudania/Blackjack-Game" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
                 <div className="project">
@@ -40,6 +41,7 @@ const Projects= ()=>{
                         <li className="techstack">HTML</li>
                         <li className="techstack">CSS</li>
                     </ul>
+                    <h3><a href="https://kartikbudania.github.io/Color-Picker/hex.html" target="_blank">Visit the site <i className="fa-solid fa-link"></i></a></h3>
                     <h3><a href="https://github.com/KartikBudania/Color-Picker" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
                 <div className="project">
