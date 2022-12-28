@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 :root{
   --main-font-family: 'Fira Code', monospace;
   --second-font-family: 'Roboto', sans-serif;
