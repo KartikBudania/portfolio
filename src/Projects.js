@@ -8,7 +8,7 @@ const Projects= ()=>{
                 <div className="project">
                     <img src="./leads.png" id="firstimg"></img>
                     <h2>// Leads Tracker Chrome Extension</h2>
-                    <h3>This chrome extension using which we can save important tabs/URLs and can open them whenever needed. Its similar to the bookmark feature in chrome.</h3>
+                    <h3>Using this chrome extension we can save meaningful tabs/URLs and can open them whenever needed. It's similar to the bookmark feature in chrome.</h3>
                     <h2>// Tech Stack</h2>
                     <ul className="stacks">
                         <li className="techstack">JAVASCRIPT</li>
@@ -21,7 +21,7 @@ const Projects= ()=>{
                 <div className="project">
                     <img src="./blackjack.png"></img>
                     <h2>// BlackJack Game</h2>
-                    <h3>I made this Blackjack game just to spend few hours playing it.</h3>
+                    <h3>I made this Blackjack game to spend a few hours playing it.</h3>
                     <h2>// Tech Stack</h2>
                     <ul className="stacks">
                         <li className="techstack">JAVASCRIPT</li>
