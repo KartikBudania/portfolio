@@ -1,4 +1,8 @@
 import React from "react";
+import leads from './leads.png';
+import blackjack from './blackjack.png';
+import colorPicker from './colorPicker.png';
+import portfolio from './portfolio.png';
 
 const Projects= ()=>{
     return(
@@ -6,7 +10,7 @@ const Projects= ()=>{
             <h1>{'<wrapper id= "work">'}</h1>
             <div className="projects">
                 <div className="project">
-                    <img src="./leads.png" id="firstimg"></img>
+                    <img src={leads} id="firstimg"></img>
                     <h2>// Leads Tracker Chrome Extension</h2>
                     <h3>Using this chrome extension we can save meaningful tabs/URLs and can open them whenever needed. It's similar to the bookmark feature in chrome.</h3>
                     <h2>// Tech Stack</h2>
@@ -19,7 +23,7 @@ const Projects= ()=>{
                     <h3><a href="https://github.com/KartikBudania/Leads-Tracker-ChromeExtension-" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
                 <div className="project">
-                    <img src="./blackjack.png"></img>
+                    <img src={blackjack}></img>
                     <h2>// BlackJack Game</h2>
                     <h3>I made this Blackjack game to spend a few hours playing it.</h3>
                     <h2>// Tech Stack</h2>
@@ -32,7 +36,7 @@ const Projects= ()=>{
                     <h3><a href="https://github.com/KartikBudania/Blackjack-Game" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
                 <div className="project">
-                    <img src="./colorPicker.png"></img>
+                    <img src={colorPicker}></img>
                     <h2>// Color Picker WebApp</h2>
                     <h3>I made this WebApp whose background color will change randomly as you click on the "Click Me" button, and you can pick any random color you like for your project</h3>
                     <h2>// Tech Stack</h2>
@@ -45,7 +49,7 @@ const Projects= ()=>{
                     <h3><a href="https://github.com/KartikBudania/Color-Picker" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
                 <div className="project">
-                    <img src="./portfolio.png"></img>
+                    <img src={portfolio}></img>
                     <h2>// This Portfolio</h2>
                     <h3>Not much to say here! This one just gave me a good excuse to spend a weekend practicing with React and CSS</h3>
                     <h2>// Tech Stack</h2>
