@@ -216,6 +216,7 @@ img{
   width: 20%;
   min-width: 195px;
   text-align: center;
+  border-radius: 15px;
 }
 .tools, .about, .projects, .details{
   padding: 50px 50px 50px 50px;
