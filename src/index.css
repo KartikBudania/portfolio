@@ -200,6 +200,8 @@ img{
   height: auto;
   max-width: 1250px;
   margin-top: 7rem;
+  border-radius: 15px;
+  border: 3px solid rgb(49, 130, 206);
 }
 .stacks{
   display: block;
