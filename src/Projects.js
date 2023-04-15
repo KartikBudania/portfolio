@@ -3,6 +3,7 @@ import leads from './leads.png';
 import blackjack from './blackjack.png';
 import colorPicker from './colorPicker.png';
 import portfolio from './portfolio.png';
+import codeEditor from './Code-Editor.png'
 
 const Projects= ()=>{
     return(
@@ -10,7 +11,20 @@ const Projects= ()=>{
             <h1>{'<wrapper id= "work">'}</h1>
             <div className="projects">
                 <div className="project">
-                    <img src={leads} id="firstimg"></img>
+                    <img src={codeEditor} id="firstimg"></img>
+                    <h2>// Code Editor WebApp</h2>
+                    <h3>This code editor is a clone of CodePen</h3>
+                    <h2>// Tech Stack</h2>
+                    <ul className="stacks">
+                        <li className="techstack">REACT</li>
+                        <li className="techstack">HTML</li>
+                        <li className="techstack">CSS</li>
+                    </ul>
+                    <h3><a href="https://kartikbudania.github.io/Code-Editor/" target="_blank">Visit the site <i className="fa-solid fa-link"></i></a></h3>
+                    <h3><a href="https://github.com/KartikBudania/Code-Editor" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
+                </div>
+                <div className="project">
+                    <img src={leads} ></img>
                     <h2>// Leads Tracker Chrome Extension</h2>
                     <h3>Using this chrome extension we can save meaningful tabs/URLs and can open them whenever needed. It's similar to the bookmark feature in chrome.</h3>
                     <h2>// Tech Stack</h2>
