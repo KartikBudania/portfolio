@@ -13,7 +13,7 @@ const Projects= ()=>{
                 <div className="project">
                     <img src={codeEditor} id="firstimg"></img>
                     <h2>// Code Editor WebApp</h2>
-                    <h3>This code editor is a clone of CodePen</h3>
+                    <h3>This online code editor is a web-based application that provides a user-friendly interface for writing and editing code in various programming languages. It allows users to write and test code in real-time, without the need to install any software on their computer.</h3>
                     <h2>// Tech Stack</h2>
                     <ul className="stacks">
                         <li className="techstack">REACT</li>
