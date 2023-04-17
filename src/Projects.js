@@ -36,7 +36,7 @@ const Projects= ()=>{
                     </ul>
                     <h3><a href="https://github.com/KartikBudania/Leads-Tracker-ChromeExtension-" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
                 </div>
-                <div className="project">
+                {/* <div className="project">
                     <img src={blackjack}></img>
                     <h2>// BlackJack Game</h2>
                     <h3>I made this Blackjack game to spend a few hours playing it.</h3>
@@ -48,7 +48,7 @@ const Projects= ()=>{
                     </ul>
                     <h3><a href="https://kartikbudania.github.io/Blackjack-Game/" target="_blank">Visit the site <i className="fa-solid fa-link"></i></a></h3>
                     <h3><a href="https://github.com/KartikBudania/Blackjack-Game" target="_blank">See the code <i className="fa-brands fa-github"></i></a></h3>
-                </div>
+                </div> */}
                 <div className="project">
                     <img src={colorPicker}></img>
                     <h2>// Color Picker WebApp</h2>
