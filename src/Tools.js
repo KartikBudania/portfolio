@@ -14,16 +14,16 @@ const Tools = () =>{
                     <h3>CSS</h3>
                     <h3>WordPress</h3>
                     <h3>Javascript</h3>
-                    <h3>React Testing Library</h3>
+                    {/* <h3>React Testing Library</h3> */}
                 </div>
                 <div>
                     <h5>Other</h5>
-                    <h3>Tailwind</h3>
+                    {/* <h3>Tailwind</h3> */}
                     <h3>C++</h3>
                     <h3>JAVA</h3>
                     <h3>Styled Components</h3>
                     <h3>Data Structures & Algorithms</h3>
-                    <h3>Best Practices & Design Principles Nerd</h3>
+                    {/* <h3>Best Practices & Design Principles Nerd</h3> */}
                 </div>
             </div>
         </div>
