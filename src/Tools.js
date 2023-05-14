@@ -21,7 +21,7 @@ const Tools = () =>{
                     {/* <h3>Tailwind</h3> */}
                     <h3>C++</h3>
                     <h3>JAVA</h3>
-                    <h3>Styled Components</h3>
+                    {/* <h3>Styled Components</h3> */}
                     <h3>Data Structures & Algorithms</h3>
                     {/* <h3>Best Practices & Design Principles Nerd</h3> */}
                 </div>
