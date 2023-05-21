@@ -35,7 +35,7 @@ const NavBar = () => {
                         <li><a href="#about">.about()</a></li>
                         <li><a href="#tools">.tools()</a></li>
                         <li><a href="#contact">.contact()</a></li>
-                        <li><a href="resume.pdf" download><button className="toggle-theme">DOWNLOAD RESUME</button></a></li>
+                        <li><a href="KartikBudania-Resume.pdf" download><button className="toggle-theme">DOWNLOAD RESUME</button></a></li>
                     </ul>
                 </div>
             </div>
