@@ -1,9 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-:root{
-  --main-font-family: 'Fira Code', monospace;
-  --second-font-family: 'Roboto', sans-serif;
+:root {
+  --main-font-family: "Fira Code", monospace;
+  --second-font-family: "Roboto", sans-serif;
 }
 body {
   margin: 0px auto;
@@ -12,7 +12,7 @@ body {
   background-color: rgb(13, 15, 17);
   padding: 0px 18px;
 }
-.nav-center{
+.nav-center {
   padding: 20px 18px;
   height: 90px;
   z-index: 10;
@@ -39,7 +39,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-.nav-header{
+.nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,7 +60,7 @@ body {
   color: rgb(49, 130, 206);
   background-color: rgb(13, 15, 17);
 }
-.show-link-container{
+.show-link-container {
   display: block;
   justify-items: center;
   text-align: right;
@@ -68,18 +68,18 @@ body {
   background-color: rgb(13, 15, 17);
   color: white;
 }
-.visit-site{
+.visit-site {
   margin-right: 40px;
 }
-.link-container{
+.link-container {
   display: none;
 }
-a{
+a {
   text-decoration: none;
   color: white;
   font-family: var(--main-font-family);
 }
-a:hover{
+a:hover {
   color: rgb(49, 130, 206);
   cursor: pointer;
 }
@@ -95,11 +95,11 @@ button {
   font-size: 15px;
   letter-spacing: 0.2em;
 }
-button:hover{
+button:hover {
   color: white;
   background-color: rgb(49, 130, 206);
 }
-ul{
+ul {
   list-style-type: none;
   display: block;
   align-items: center;
@@ -107,24 +107,24 @@ ul{
   font-weight: 700;
   margin-right: 3px;
 }
-li{
+li {
   margin-top: 15px;
   height: auto;
   width: auto;
 }
-.hero{
+.hero {
   padding: 90px 18px;
   height: auto;
   max-width: 1100px;
   display: block;
 }
-.hero-heading{
+.hero-heading {
   margin: 0.67em 0px;
   color: white;
   font-size: 50px;
   font-weight: 700;
 }
-.hero-banner{
+.hero-banner {
   margin: 0.67em 0px;
   color: rgb(49, 130, 206);
   font-size: 50px;
@@ -150,84 +150,107 @@ li{
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
   -webkit-animation: fade_move_down 0.8s ease-in-out infinite;
-  -moz-animation:    fade_move_down 0.8s ease-in-out infinite;
-  animation:         fade_move_down 0.8s ease-in-out infinite;
+  -moz-animation: fade_move_down 0.8s ease-in-out infinite;
+  animation: fade_move_down 0.8s ease-in-out infinite;
 }
-
 
 /*animated scroll arrow animation*/
 @-webkit-keyframes fade_move_down {
-  0%   { -webkit-transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  0% {
+    -webkit-transform: translate(0, -50px) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 10px) rotate(45deg);
+    opacity: 0;
+  }
 }
 @-moz-keyframes fade_move_down {
-  0%   { -moz-transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  0% {
+    -moz-transform: translate(0, -50px) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: translate(0, 10px) rotate(45deg);
+    opacity: 0;
+  }
 }
 @keyframes fade_move_down {
-  0%   { transform:translate(0,-50px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  0% {
+    transform: translate(0, -50px) rotate(45deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 10px) rotate(45deg);
+    opacity: 0;
+  }
 }
-section{
+section {
   margin: 10rem 0px;
 }
-h1{
+h1 {
   color: rgb(49, 130, 206);
   font-weight: 700;
   font-size: 50px;
   margin: 0.67em 0px;
 }
-h2{
+h2 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.75;
   color: rgb(128, 128, 128);
   margin: 20px 0px;
 }
-h3{
+h3 {
   margin-bottom: 20px;
   color: white;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.75;
 }
-h4{
+h4 {
   font-weight: 700;
   font-size: 34px;
   color: white;
   margin: 0.67em 0px;
 }
-h5{
+h5 {
   color: rgb(49, 130, 206);
   font-weight: 600;
   font-size: 24px;
   margin: 0.67em 0px;
 }
-h6{
+h6 {
   color: white;
   font-weight: 700;
   font-size: 50px;
   margin: 0.67em 0px;
 }
-.socials{
+.socials {
   font-size: 35px;
 }
-.projects{
+.projects {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.project{
+.project {
   max-width: 1100px;
 }
-#firstimg{
+#firstimg {
   margin-top: 0px;
 }
-img{
+img {
   width: 100%;
   height: auto;
   max-width: 1100px;
@@ -235,11 +258,11 @@ img{
   border-radius: 15px;
   border: 3px solid rgb(49, 130, 206);
 }
-.stacks{
+.stacks {
   display: block;
   padding: 0px;
 }
-.techstack{
+.techstack {
   background-color: white;
   color: rgb(13, 15, 17);
   padding: 5px 10px;
@@ -250,18 +273,21 @@ img{
   text-align: center;
   border-radius: 15px;
 }
-.tools, .about, .projects, .details{
+.tools,
+.about,
+.projects,
+.details {
   padding: 50px 50px 50px 50px;
 }
-.tool{
+.tool {
   display: block;
   justify-content: space-between;
 }
-.details{
+.details {
   display: block;
   /* justify-content: space-between; */
 }
-form{
+form {
   background: rgb(13, 15, 17);
   display: flex;
   flex-direction: column;
@@ -271,7 +297,8 @@ form{
   border: white 2px solid;
   border-radius: 2px;
 }
-form input, form textarea{
+form input,
+form textarea {
   border: 1px solid white;
   border-radius: 2px;
   margin-bottom: 15px;
@@ -280,16 +307,16 @@ form input, form textarea{
   background: #f5f5f5;
   font-size: 20px;
 }
-#footer{
+#footer {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.footer{
+.footer {
   display: block;
   text-align: center;
 }
 @media screen and (min-width: 1100px) {
-  .nav-center{
+  .nav-center {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -299,7 +326,7 @@ form input, form textarea{
     top: 0;
     left: 0;
   }
-  .nav-header{
+  .nav-header {
     font-size: 30px;
     font-weight: 700;
     display: flex;
@@ -312,17 +339,17 @@ form input, form textarea{
   .nav-toggle:hover {
     color: rgb(49, 130, 206);
   }
-  .link-container{
+  .link-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  a{
+  a {
     text-decoration: none;
     color: white;
     font-family: var(--main-font-family);
   }
-  a:hover{
+  a:hover {
     color: rgb(49, 130, 206);
     cursor: pointer;
   }
@@ -338,50 +365,50 @@ form input, form textarea{
     font-size: 15px;
     letter-spacing: 0.2em;
   }
-  button:hover{
+  button:hover {
     color: white;
     background-color: rgb(49, 130, 206);
   }
-  ul{
+  ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     font-size: 16px;
     font-weight: 700;
   }
-  li{
+  li {
     margin-top: 0px;
     margin-left: 25px;
     height: auto;
     width: auto;
   }
-  .hero{
+  .hero {
     margin: 0.67em 0px;
     padding: 90px 18px;
     height: auto;
     max-width: 1100px;
     display: block;
   }
-  .hero-heading{
+  .hero-heading {
     color: white;
     font-size: 50px;
     font-weight: 700;
   }
-  .hero-banner{
+  .hero-banner {
     margin: 0.67em 0px;
     color: rgb(49, 130, 206);
     font-size: 50px;
     font-weight: 700;
   }
-  .details{
+  .details {
     display: flex;
     justify-content: space-between;
   }
-  .stacks{
+  .stacks {
     display: flex;
     padding: 0px;
   }
-  .techstack{
+  .techstack {
     background-color: white;
     color: rgb(13, 15, 17);
     padding: 5px 10px;
@@ -392,7 +419,7 @@ form input, form textarea{
     width: 195px;
     text-align: center;
   }
-  form{
+  form {
     background: rgb(13, 15, 17);
     display: flex;
     flex-direction: column;
@@ -402,7 +429,7 @@ form input, form textarea{
     border: white 2px solid;
     border-radius: 2px;
   }
-  .tool{
+  .tool {
     display: flex;
     justify-content: space-between;
   }
