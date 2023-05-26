@@ -12,7 +12,7 @@ const Projects = () => {
       <h1>{'<wrapper id= "work">'}</h1>
       <div className="projects">
         <div className="project">
-          <a href="https://github.com/KartikBudania/Harmony" target="_blank">
+          <a href="https://kartikbudania.github.io/Harmony/" target="_blank">
             <img src={harmony} id="firstimg"></img>
           </a>
           <h2>// Harmony - The Music Player</h2>
