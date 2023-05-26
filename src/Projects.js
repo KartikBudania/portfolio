@@ -100,13 +100,13 @@ const Projects = () => {
           </ul>
           <h3>
             <a
-              href="https://kartikbudania.github.io/Code-Editor/"
+              href="https://kartikbudania.github.io/Color-Picker/hex.html"
               target="_blank"
             >
               Visit Site <i className="fa-solid fa-link visit-site"></i>
             </a>
             <a
-              href="https://github.com/KartikBudania/Code-Editor"
+              href="https://github.com/KartikBudania/Color-Picker"
               target="_blank"
             >
               See the code <i className="fa-brands fa-github"></i>
