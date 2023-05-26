@@ -29,12 +29,12 @@ const Projects = () => {
             <li className="techstack">CSS</li>
           </ul>
           <h3>
-            {/* <a
-              href="https://kartikbudania.github.io/Harmony"
+            <a
+              href="https://kartikbudania.github.io/Harmony/"
               target="_blank"
             >
               Visit Site <i className="fa-solid fa-link visit-site"></i>
-            </a> */}
+            </a>
             <a
               href="https://github.com/KartikBudania/Harmony"
               target="_blank"
