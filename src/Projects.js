@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <a
-            href="https://github.com/KartikBudania/Code-Editor"
+            href="https://kartikbudania.github.io/Code-Editor/"
             target="_blank"
           >
             <img src={codeEditor}></img>
@@ -81,7 +81,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <a
-            href="https://github.com/KartikBudania/Color-Picker"
+            href="https://kartikbudania.github.io/Color-Picker/hex.html"
             target="_blank"
           >
             <img src={colorPicker}></img>
