@@ -29,16 +29,10 @@ const Projects = () => {
             <li className="techstack">CSS</li>
           </ul>
           <h3>
-            <a
-              href="https://kartikbudania.github.io/Harmony/"
-              target="_blank"
-            >
+            <a href="https://kartikbudania.github.io/Harmony/" target="_blank">
               Visit Site <i className="fa-solid fa-link visit-site"></i>
             </a>
-            <a
-              href="https://github.com/KartikBudania/Harmony"
-              target="_blank"
-            >
+            <a href="https://github.com/KartikBudania/Harmony" target="_blank">
               See the code <i className="fa-brands fa-github"></i>
             </a>
           </h3>
